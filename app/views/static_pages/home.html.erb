@@ -10,10 +10,16 @@
 	<div class="carousel-inner">
 		<div class="item active">
 			<%= image_tag "banner.png",alt:"", style:"width:100%; height: 450px" %>
-			<div class="carousel-caption" style ="color:#ebfafa;text-shadow: 2px 2px #196666;font-weight:900">
+			<div class="carousel-caption" >
+				<div style ="color:#ebfafa;text-shadow: 2px 2px #196666;font-weight:900">
 				<h3>ファッション</h3>
 				<p>適切な服を見つけるのは簡単です</p>
+				</div>
+				<div >
+					<%= link_to "すぐ服装を勧め＞", "/informations/show", style: "background-color:#000;font-size:2em;text-decoration: none;color: white;text-align: center;margin-bottom:5px;font-weight:900"%>
+				</div>
 			</div>
+			
 		</div>
 
 		<div class="item">
